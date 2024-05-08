@@ -17,9 +17,8 @@ button.addEventListener("click", function() {
     // CODE SOLO
     // 3. Create additional compound conditionals that check for the following:
     //  - If the username is correct AND the password is incorrect, update the text of the message div to say "Wrong password - be careful, don't mess this up too many times."
-    //  - If the password is correct AND the username is incorrect, update the text of the message div to say "Wrong username - is there a typo?"
-    //  - Finally, if the password is incorrect AND the username is incorrect, update the text of the message div to say "Incorrect username and password. Hmm. Suspicious."
-    
+    //  - If the password is incorrect AND the username is incorrect, update the text of the message div to say "Incorrect username and password. Hmm. Suspicious."
+    //  - Finally, add a catch-all else statement (so, no conditions) which changes the text to "Something else is wrong."    
     
     // Bonus: If the username OR password fields are empty, update the text of the message div to say "You need to enter SOMETHING."
     //  - Hint: What string represents an "empty" message.
